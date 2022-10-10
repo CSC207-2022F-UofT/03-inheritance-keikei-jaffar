@@ -16,6 +16,8 @@ class BagMain {
      */
     public static void enhanceBags(Bag[] bags, boolean double_enhance_handbags) {
         // TODO: Implement this.
+        return this.color + " Bag (" + this.numberOfContents + " / " +
+                this.capacity + ")";
     }
 
     /**
@@ -29,5 +31,6 @@ class BagMain {
      */
     public static int countCrossbodyStraps(Bag[] bags) {
         // TODO: Implement this.
+
     }
 }
